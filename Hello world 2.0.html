@@ -4,32 +4,118 @@
                 everything you write goes in there-->
 
     <head> <!-- This is where you can define the title for example-->
-        <!--The HEAD sections contains info about the page, links to external files and meta data-->
+        <!--The HEAD sections contains info about the page, links to external
+        files and meta data-->
+        
+        <meta charset="UTF-8"> <!--Defines character set for HTML-->
+        <meta name="keywords" content="HTML, CSS, JavaScript"> <!--Include
+        keywords for search engines-->
+        <meta name="description" content="First attempt building a webpage"> <!--
+        includes a description-->
+        <meta name="author" content="Thomas"> <!--Defines the author-->
+        <!--Commant to reload the document every x seconds: <meta http-equiv="
+            refresh" content="30> -->
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <!-- Scale the page to the size of a user's screen-->
 
-        <title>Thom's Website</title> <!--The title of the actual page (NOT a header)-->
+        <title>Thom's Website</title> <!--The title of the actual page
+        (NOT a header)-->
+
+        <style>
+        .myDiv{background-color: red;}
+        </style>
 
     </head>
+
     
     <body> <!-- The body is used for what is visually displayed on the webpage-->
 
-        <h1>Wesley zuigt in COD</h1> <!--h1 -h6 from bigger to smaller are header-->
+        <h1>Welcome to Thom's website</h1> <!--h1 -h6 from bigger to smaller are
+        header-->
 
-        <div>Hello to my webpage.</div> <!--DIViders create new lines of text-->
+        <div>Please enjoy</div> <!--DIViders create new lines of text-->
 
-        <div>This should be <b>BOLD</b><u><i>Italics</i></u><b>AND</b><i><u>Underlined</u></i></div>
-        <!-- <b><i><u> like word Bold Italics and Underlines-->
+        <!--<nav>
+            <h2>Main site navigation</h2>
+            <ul>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/about-us.html">About Us</a>
+              </li>
+            </ul>
+          </nav>
 
-        <h3> Smaller nicer header</h3>
+        <div>
+            <b>Bold</b><i>Italics</i><u>Underlined</u>
+        </div> <!-- <b><i><u> like word Bold Italics and Underlines-->
 
-        <p>With A little paragraph. If only I knew more words that made sense that could go here making it look like more of a paragraph. Oh well this will do.</p>    
+        <h3> Please do not read the below</h3>
+
+        <p>These are all paragraphs which when filled with a lot ot text you will see they will strat to look like paragraphs as well jus tlike you can find them in for example the newspaper or online on some sort of blog tha tyou have found. Besides that piece of information, or more a description there is absolutely no other relevant information in this piece of text. Matter of fact the next two paragraphs are 100% identical and will contain nothing but the exact same information as the one you ar ecurrently reading. If you do however proceed with reading the next two paragraphs because you might not turst me then I do apologise for wasting your time however you cannot say  Ihaven't warned you. Also my utmost sincere apologies for my gramatical and spelling errors.</p>    
         <!-- <p> for Paragraph-->
-        <p>Onto the next paragraph. Which is going to be way shorter than the next paragraph.</p>
+        <p>These are all paragraphs which when filled with a lot ot text you will see they will strat to look like paragraphs as well jus tlike you can find them in for example the newspaper or online on some sort of blog tha tyou have found. Besides that piece of information, or more a description there is absolutely no other relevant information in this piece of text. Matter of fact the next two paragraphs are 100% identical and will contain nothing but the exact same information as the one you ar ecurrently reading. If you do however proceed with reading the next two paragraphs because you might not turst me then I do apologise for wasting your time however you cannot say  Ihaven't warned you. Also my utmost sincere apologies for my gramatical and spelling errors.</p>    
+        <p>These are all paragraphs which when filled with a lot ot text you will see they will strat to look like paragraphs as well jus tlike you can find them in for example the newspaper or online on some sort of blog tha tyou have found. Besides that piece of information, or more a description there is absolutely no other relevant information in this piece of text. Matter of fact the next two paragraphs are 100% identical and will contain nothing but the exact same information as the one you ar ecurrently reading. If you do however proceed with reading the next two paragraphs because you might not turst me then I do apologise for wasting your time however you cannot say  Ihaven't warned you. Also my utmost sincere apologies for my gramatical and spelling errors.</p>
+        
+        <div
+        class="myDiv"> <!--firstly defining the class in the <head> section you
+        can call for it after again in the dev-->
+            <p>This piece of text is in red</p>
+        </div>
 
-        <hr/> <!--Creates a Horizontal line. You open and close within the brackets as nothing
-                    "goes in there"-->
+        <strong>This is STRONG text,</strong><em>whilst this is EMphasized.</em>
+        <mark> And MARKed.</mark><ins>INSerted?? </ins>
+        <sub>SUBscript text, as well as, </sub><sup>SUPerscript text :D</sup>
+        <del><br/>And last but not least DELeted</del>
+
+        <p title="this is an attribute">QA is the leading training provider.</p>
+        Please find <a href="https:/www.qa.com/"> QA website</a>
+        <image src="https://images.app.goo.gl/nSvsKq6FLLJ4ZdNV6" alt="QA logo"? width="100" height="100">
+        
+        <main>
+            <h1>Some articles</h1>
+            <article>
+                <p>First Article Text</p>
+            </article>
+            <article>
+                <p>Second Article Text</p>
+            </article>
+            <article>
+                <p>Third Article Text</p>
+            </article>
+        </main>
+
+        <article>
+            <h1>My Blog Post</h1>
+            <p>...</p>
+            <aside>
+               <h1>Glossary</h1>
+                <dl> ... </dl>
+            </aside>
+        </article> <!-- You can use Aside and Article together for more neat 
+        and readable writing-->
+
+
+        <hr/> <!--Creates a Horizontal line. You open and close within the brackets 
+            as nothing "goes in there"-->
 
         <h6> Please like and subscribe</h6>  
+
+        <footer>
+            <small>
+              Small footer
+            </small>
+        </footer> <!--They can also contain entire <sections>, usually in the 
+        form of appendices, indices, sitemaps, and other less noteworthy Web page
+        content. Traditionally, the <footer> should contain <small> elements:-->
+
+        <footer>
+            <p>Fat footer</p>
+        </footer> <!--A more unconventional use of the <footer> element is a fat
+        footer, which might contain images, external links, feedback or review
+        boxes, advertising, etc.:-->
     
-    </body> <!--Clsoe the body-->
+    </body> <!--Close the body-->
 
 </html> <!--Close the html-->
